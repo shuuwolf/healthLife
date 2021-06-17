@@ -1,3 +1,9 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 body{
 	font-family: arial;
 	margin: 0;
@@ -6,7 +12,7 @@ body{
 header{
 	display:flex;
 	justify-content: center;
-	height: 120px;
+	height: 100px;
 }
 
 .container{
@@ -17,37 +23,48 @@ header{
 }
 
 .logo{
-	
+	background-image: url('/healthLife/assets/images/logo.png');
+	background-size: cover;
+	background-repeat: no-repeat; /* Center the image */
+	height: 120px;
+	width: 140px;
+	transform: translateY(-10px);/*just for remove the blank line of the top*/
 }
 
 .menu{
-padding: 10px;
-align-items: center;
-display: flex;
+	display: flex;
+	padding: 10px;
 }
 
 .menu a{
-	margin-left: 10px;
 	text-decoration: none;
 	color: #727272;
 }
 
-.menu li,ul{
+.menu ul{
 	display: flex;
+	align-items: flex-end;
+	height:90px;
+}
+
+.menu ul li{
 	list-style: none;
-	align-self: center;
 	text-transform: uppercase;
-	display: flex;
 	font-family: arial;
-	padding: 15px;
+	padding: 10px 15px;
+	margin-left: 10px;
+	margin-bottom: 5px;
 }
 
 .selected{
 	background-color: #39aae1;
-	height: 10px;
-	width: 50px;
-	color: white;
+	width: auto;
 	border-radius: 10px;
+	margin-left: 0px;
+}
+
+.selected a{
+	color: white;
 }
 
 .banner{
@@ -55,8 +72,10 @@ display: flex;
 	justify-content: center;
 	background-image: url('../images/img1.jpg');
 	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
 	height:670px;
+	background-position-y:0px;
 }
 .column{
 	flex-direction: column;
