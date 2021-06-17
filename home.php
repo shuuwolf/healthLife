@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device=width,user-scalable=0">
+	<meta name="viewport" content="width=device-width,user-scalable=0">
 	<title>HealthLife</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -10,19 +10,16 @@
 
 <header>
 	<div class="container">
-		<img src="assets/images/logo.png">
-		<div class="menu">
-			<nav>
-				<ul>
-					<li class="selected"><a href="/Home">Home</a></li>
-					<li><a href="Contato/contato.html">Contatos</a></li>
-					<li><a href="/Home">Sobre</li>
-					<li><a href="/Home">Lista</li>
-					<li><a href="/Home">Nome</a></li>
-
-				</ul>
-			</nav>
-		</div>
+		<div class="logo"></div><!-- LOGO -->
+		<nav class="menu">
+			<ul>
+				<li class="selected"><a href="/Home">Home</a></li>
+				<li><a href="Contato/contato.html">Contatos</a></li>
+				<li><a href="/Home">Sobre</li>
+				<li><a href="/Home">Lista</li>
+				<li><a href="/Home">Nome</a></li>
+			</ul>
+		</nav>
 	</div>
 </header>
 
