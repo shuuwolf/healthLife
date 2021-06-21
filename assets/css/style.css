@@ -11,6 +11,8 @@ body{
 }
 header{
 	width: 100%;
+	display:flex;
+	justify-content: center;
 	height: 100px;
 }
 
@@ -24,6 +26,8 @@ header{
 }
 
 .logo{
+	display: flex;
+	align-self: right;
 	background-image: url('/healthLife/assets/images/logo.png');
 	background-size: cover;
 	background-repeat: no-repeat; /* Center the image */
@@ -35,6 +39,8 @@ header{
 
 .menu{
 	float: right;
+	display: flex;
+	padding: 10px;
 }
 
 .menu a{
