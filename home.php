@@ -30,7 +30,7 @@
 	<div class="container column">
 		<div class="banner_headline">
 			<h1>Top notch experience.</h1>
-			<h3>HealthLife Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			<h3>HealthLife Lorem ipsum dolor sit amet, consectetur adipisicing elt, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip.</h3>
 		</div>
